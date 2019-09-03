@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a3ea8c0-34c4-4d5a-baf6-83ff72f35d33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,9 +20,9 @@
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="346">
-              <caret line="108" column="61" selection-start-line="108" selection-start-column="61" selection-end-line="108" selection-end-column="61" />
+              <caret line="130" column="22" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
               <folding>
-                <element signature="e#14#94#0" expanded="true" />
+                <element signature="e#14#93#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -221,12 +220,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567474690933</updated>
-      <workItem from="1567474693966" duration="5922000" />
+      <workItem from="1567474693966" duration="6529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5922000" />
+    <option name="totallyTimeSpent" value="6529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2187" y="58" width="1371" height="947" extended-state="0" />
@@ -313,9 +312,9 @@
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
-          <caret line="108" column="61" selection-start-line="108" selection-start-column="61" selection-end-line="108" selection-end-column="61" />
+          <caret line="130" column="22" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
           <folding>
-            <element signature="e#14#94#0" expanded="true" />
+            <element signature="e#14#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
