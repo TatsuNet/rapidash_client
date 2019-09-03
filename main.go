@@ -102,11 +102,11 @@ func main() {
 	var userLoginSlice UserLoginSlice
 	userLoginSlice = append(userLoginSlice, &userLogin)
 
-	if err := tx.Create("user_login_slice", new(UserLogin).Struct().Cast(&userLoginSlice)); err != nil {
+	if err := tx.Create("user_login_slice", rapidash.Structs(&userLoginSlice, new(UserLogin).Struct())); err != nil {
 		panic(err)
 	}
 	var newUserLoginSlice UserLoginSlice
-	if err := tx.Find("user_login_slice", new(UserLogin).Struct().Cast(&newUserLoginSlice)); err != nil {
+	if err := tx.Find("user_login_slice",  rapidash.Structs(&newUserLoginSlice, new(UserLogin).Struct())); err != nil {
 		panic(err)
 	}
 	fmt.Printf("newUserLoginSlice[0]:%v\n", newUserLoginSlice[0].Name)
