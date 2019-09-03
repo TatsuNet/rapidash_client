@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/pkg/errors"
 	"time"
+
+	"github.com/pkg/errors"
 
 	"go.knocknote.io/rapidash"
 )
